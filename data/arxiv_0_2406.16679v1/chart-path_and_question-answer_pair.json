@@ -1,0 +1,54 @@
+[
+    {
+        "id": "group_12_question_0",
+        "image": [
+            "modified_local_full_qa\\arxiv_0_2406.16679v1\\hardware_dop.png",
+            "modified_local_full_qa\\arxiv_0_2406.16679v1\\sim_clir_error_max.png",
+            "modified_local_full_qa\\arxiv_0_2406.16679v1\\sim_dop.png"
+        ],
+        "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: 1. How many subplots are there in the first chart?\nNote that Your final answer should be the total number of subplots in the plot. If the plot does not contain subplots, answer '1'.\n2. How many distinct lines are there in the second chart?\nNote that Your final answer should be the total number of distinct lines in the chart across multiple subplots. Ignore grid lines, tick marks, and any vertical or horizontal auxiliary lines. If the plot does not contain any lines or is not considered a line plot, answer '0'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
+        "answer": "1; 2",
+        "task": "multiple_simple_single-image_questions/about_frame_and_content",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_12_question_1",
+        "image": [
+            "modified_local_full_qa\\arxiv_0_2406.16679v1\\hardware_dop.png",
+            "modified_local_full_qa\\arxiv_0_2406.16679v1\\sim_clir_error_max.png",
+            "modified_local_full_qa\\arxiv_0_2406.16679v1\\sim_dop.png"
+        ],
+        "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: How many identical labels are there in the legends of the first chart and the second chart?\nNote that Your final answer should be the number of identical labels in the legends of the first chart and the second chart across multiple subplots. An\nd your final answer should account for only labels relevant to the plot in the legend, even if the legend is located outside the plot. If any of the plo\nts do not have a legend, or if the legend is not considered relevant to the plot, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "2",
+        "task": "One_simple_question_from_multi_images/about_common_elements_in_the_content",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_12_question_2",
+        "image": [
+            "modified_local_full_qa\\arxiv_0_2406.16679v1\\hardware_dop.png",
+            "modified_local_full_qa\\arxiv_0_2406.16679v1\\sim_clir_error_max.png",
+            "modified_local_full_qa\\arxiv_0_2406.16679v1\\sim_dop.png"
+        ],
+        "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: In which chart the PROPOSED ALGORITHM AVG doesn't show great improvement of the DOP COST compared with NAIVE ALGORITHM AVG?\nNote that your answer should be only one option from (First, Second, Third).\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "First",
+        "task": "multiple_complicated_single-image_questions/plus_one_step_reasoning_or_calculation",
+        "type": "open-ended",
+        "context": null
+    },
+    {
+        "id": "group_12_question_3",
+        "image": [
+            "modified_local_full_qa\\arxiv_0_2406.16679v1\\hardware_dop.png",
+            "modified_local_full_qa\\arxiv_0_2406.16679v1\\sim_clir_error_max.png",
+            "modified_local_full_qa\\arxiv_0_2406.16679v1\\sim_dop.png"
+        ],
+        "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: In which chart does the DOP COST gap between the PROPOSED ALGORITHM AVG and the NAIVE ALGORITHM AVG when DISTANCE DRIVEN[m] = 20 is the largest?\nNote that your answer should be only one option from (First, Second, Third).\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "answer": "Third",
+        "task": "multiple_complicated_single-image_questions/plus_one_step_reasoning_or_calculation",
+        "type": "open-ended",
+        "context": null
+    }
+]

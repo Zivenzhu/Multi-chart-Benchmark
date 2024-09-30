@@ -1,0 +1,7 @@
+Answer: 2; C
+
+Answer: 13
+
+Answer: -1; -1
+
+Answer: Second

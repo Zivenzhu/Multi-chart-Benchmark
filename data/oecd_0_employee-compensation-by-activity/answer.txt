@@ -1,0 +1,7 @@
+Answer: 20
+
+Answer: A; 18; 60
+
+Answer: 5
+
+Answer: 2

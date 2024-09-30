@@ -1,0 +1,7 @@
+Answer: 80
+
+Answer: 5; 0
+
+Answer: 8
+
+Answer: 2012

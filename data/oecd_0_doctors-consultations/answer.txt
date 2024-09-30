@@ -1,0 +1,7 @@
+Answer: 20
+
+Answer: 17; 20
+
+Answer: 5
+
+Answer: Third

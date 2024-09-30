@@ -1,0 +1,7 @@
+Answer: 12
+
+Answer: 12; 0; C
+
+Answer: 17
+
+Answer: 3

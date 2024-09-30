@@ -1,0 +1,7 @@
+Answer: -2.0; 1.25 
+
+Answer: 5
+
+Answer: 3
+
+Answer: Red

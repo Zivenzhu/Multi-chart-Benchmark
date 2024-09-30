@@ -1,0 +1,7 @@
+Answer: 1 by 1
+
+Answer: 5; 180
+
+Answer: 5
+
+Answer: Yes; First

@@ -1,0 +1,7 @@
+Answer: A; 0.5
+
+Answer: 2
+
+Answer: Bigger; High
+
+Answer: Third

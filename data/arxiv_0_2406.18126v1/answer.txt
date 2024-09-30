@@ -1,0 +1,7 @@
+Answer: 20.0
+
+Answer: 3000; 10; 0
+
+Answer: 7
+
+Answer: 2

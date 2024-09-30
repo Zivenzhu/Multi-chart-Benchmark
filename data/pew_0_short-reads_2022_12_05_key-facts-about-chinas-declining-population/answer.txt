@@ -1,0 +1,7 @@
+Answer: 115
+
+Answer: 6; 14
+
+Answer: 8
+
+Answer: 2.739; 107

@@ -1,0 +1,7 @@
+Answer: Global electricity use for air conditioning
+
+Answer: 12; 6
+
+Answer: 3
+
+Answer: China; Yes

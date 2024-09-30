@@ -1,0 +1,7 @@
+Answer: C
+
+Answer: 0; 17; Circle
+
+Answer: 12
+
+Answer: 2018

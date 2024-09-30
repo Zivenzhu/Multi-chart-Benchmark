@@ -1,0 +1,7 @@
+Answer: 1
+
+Answer: 2; 10
+
+Answer: 2
+
+Answer: 4

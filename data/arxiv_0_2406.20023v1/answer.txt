@@ -1,0 +1,7 @@
+Answer: 2000
+
+Answer: 4000; 4250; -5
+
+Answer: 2
+
+Answer: BIS

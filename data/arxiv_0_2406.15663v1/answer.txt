@@ -1,0 +1,7 @@
+Answer: 20; 4
+
+Answer: 1
+
+Answer: 0.16
+
+Answer: C
