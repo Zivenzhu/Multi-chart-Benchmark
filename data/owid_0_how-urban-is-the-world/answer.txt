@@ -1,6 +1,6 @@
 Answer: 0%
 
-Answer: 62; 7
+Answer: 62; 6
 
 Answer: 4
 

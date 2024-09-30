@@ -46,7 +46,7 @@
             "modified_local_full_qa\\owid_0_covid-exemplar-south-korea-2020\\hospital-beds-per-1000-people.png"
         ],
         "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: 1. Which of the following ranges does South Korea's Daily tests vs. daily new confirmed cases per million fall within in the first chart?\nNote that this a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. [0.1%, 0.2%)\nB. [0.2%, 0.5%)\nC. [0.5%, 1%)\nD. [1%, 2%)\n2. Among all the horizontal tick date, on which date the gap between the cases and the deaths is the largest in the second chart?\nNote that your final answer must be approximated to the nearest horizontal tick value in the chart. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
-        "answer": "B; Apr 30, 2020",
+        "answer": "B; Mar 21, 2020",
         "task": "multiple_complicated_single-image_questions/only_combination",
         "type": "open-ended",
         "context": null

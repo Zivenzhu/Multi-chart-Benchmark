@@ -14,7 +14,7 @@ Question 3: How many of the same opinions of Pope Francis are there in the secon
 Note that your answer should be the same opinions of Pope Francis. If two opinions are semantically identical but phrased differently, consider them identical.
 Note that your answer format should be as follows: Answer: The_answer_you_get
 
-Question 4: Firstly the time when the percentage of Republican/lean Rep. having a favorable option of Pope Francis reaches the maximum among all the horizontal tick values in the first chart.
+Question 4: Firstly extract the time when the percentage of Republican/lean Rep. having a favorable option of Pope Francis reaches the maximum among all the horizontal tick values in the first chart.
 Then what is the percentage of U.S. adults who say their opinion of Pope Francis is unfavorable in the second chart?
 Note that Your final answer must be grounded to a number that is explicitly written and relevant to the question in the chart, even if it is an approximate value. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.
 Note that your answer format should be as follows: Answer: The_answer_you_get

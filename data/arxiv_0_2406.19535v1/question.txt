@@ -14,7 +14,7 @@ Question 3: How many of the same tick values are there across all axes in the fi
 Note that Your final answer should be the number of the same tick values across all axes, including the case when any axis is shared across multiple subplots in the first chart and the third chart. If a chart has multiple ticks from different subplots with the same value, count them as only one distinct tick value. If these charts do not have ticks with the same label on the vertical axis, answer '0'.
 Note that your answer format should be as follows: Answer: The_answer_you_get
 
-Question 4: Firstly extract an α value a1 in the log ISE subplot of the second chart, with which the median value of the box chart is the highest among all α values. 
+Question 4: Firstly extract an α value a1 in the log ISE subplot of the second chart, with which the median value of the flode box is the highest among all α values. 
 Then for true α= a1, in which subplot, (Left, Middle, Right), does its largest error rate ranks the first in the first chart? 
 Note that your answer should be only one option from (Left, Middle, Right)
 Note that your answer format should be as follows: Answer: The_answer_you_get

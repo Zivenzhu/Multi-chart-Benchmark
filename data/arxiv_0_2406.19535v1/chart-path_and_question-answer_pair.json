@@ -45,7 +45,7 @@
             "modified_local_full_qa\\arxiv_0_2406.19535v1\\fig_sim_surfaceErr-1.png",
             "modified_local_full_qa\\arxiv_0_2406.19535v1\\fig_simdata_RE-2.png"
         ],
-        "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: Firstly extract an \u03b1 value a1 in the log ISE subplot of the second chart, with which the median value of the box chart is the highest among all \u03b1 values. \nThen for true \u03b1= a1, in which subplot, (Left, Middle, Right), does its largest error rate ranks the first in the first chart? \nNote that your answer should be only one option from (Left, Middle, Right)\nNote that your answer format should be as follows: Answer: The_answer_you_get",
+        "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: Firstly extract an \u03b1 value a1 in the log ISE subplot of the second chart, with which the median value of the flode box is the highest among all \u03b1 values. \nThen for true \u03b1= a1, in which subplot, (Left, Middle, Right), does its largest error rate ranks the first in the first chart? \nNote that your answer should be only one option from (Left, Middle, Right)\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "Middle",
         "task": "multiple_complicated_single-image_questions/multi_step-chain_of_search",
         "type": "open-ended",

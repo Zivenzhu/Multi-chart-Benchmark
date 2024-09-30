@@ -1,6 +1,6 @@
 Answer: 9
 
-Answer: 0.5; 18; 1.0  
+Answer: 0.25; 18; 1.0  
 
 Answer: 5
 

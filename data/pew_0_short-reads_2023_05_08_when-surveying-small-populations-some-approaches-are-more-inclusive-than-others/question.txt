@@ -16,7 +16,7 @@ Question 3: How many of the same tick values are there on the horizontal axis in
 Note that Your final answer should be the number of the same tick values on the horizontal axis across multiple subplots in the first chart and the second chart. If a chart has multiple ticks from different subplots with the same value, count them as only one distinct tick value. If the first and the second charts do not have ticks with the same label on the horizontal axis, answer '0'.
 Note that your answer format should be as follows: Answer: The_answer_you_get
 
-Question 4: 1. What is the smallest percentage of U.S. Muslims born in a specific region among all the regions listed in the first chart?
+Question 4: 1. What is the smallest List sample percentage of U.S. Muslims born in a specific region among all the regions listed in the first chart?
 Note that Your final answer must be grounded to a number that is explicitly written and relevant to the question in the chart, even if it is an approximate value. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.
 2. What is the largest List sample percentage of Asian American adults among all the age groups in the second chart?
 Note that Your final answer must be grounded to a number that is explicitly written and relevant to the question in the chart, even if it is an approximate value. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.

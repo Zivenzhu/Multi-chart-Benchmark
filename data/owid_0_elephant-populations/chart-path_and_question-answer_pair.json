@@ -18,7 +18,7 @@
             "modified_local_full_qa\\owid_0_elephant-populations\\number-of-asian-elephants.png"
         ],
         "question": "The first chart is <image>. The second chart is <image>. Question: 1. How many labeled ticks are there on the vertical axis in the first chart?\nNote that Your final answer should be the total number of labeled ticks on the vertical axis across multiple subplots. If the chart does not have explicit labeled ticks on the vertical axis, answer '0'.\n2. How many labeled ticks are there on the vertical axis in the second chart?\nNote that Your final answer should be the total number of labeled ticks on the vertical axis across multiple subplots. If the chart does not have explicit labeled ticks on the vertical axis, answer '0'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
-        "answer": "9; 8",
+        "answer": "0; 0",
         "task": "multiple_simple_single-image_questions/only_about_frame",
         "type": "open-ended",
         "context": null
