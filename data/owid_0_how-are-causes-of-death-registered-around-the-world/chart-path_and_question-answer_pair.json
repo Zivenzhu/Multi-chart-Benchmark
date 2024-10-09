@@ -8,7 +8,7 @@
         ],
         "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: What is the difference between the maximum and minimum percentages of the tick labels on the colour bar in the second chart? \nNote that your final answer should be the difference between the maximum and minimum percentages of the tick labels on the colour bar, including the case when the colour bar is shared across multiple subplots. When the colour bar is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the plot does not have an explicit colour bar tick value, or if the tick values are not numerical, answer 'Not Applicable'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "100",
-        "task": "Direct_Questions/Structure",
+        "task": "Direct_Questions/Content",
         "type": "open-ended",
         "context": null
     },

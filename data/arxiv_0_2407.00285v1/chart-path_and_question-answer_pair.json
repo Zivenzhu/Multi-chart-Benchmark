@@ -21,7 +21,7 @@
         ],
         "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: 1. What does the z-axis in the second chart represent?\nNote that This is a choice question. Your final answer should be the option that most closely matches the question. If the chart has multiple subplots,\nanswer based on the subplot on the left and at the bottom. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Integrated Counts  \nB. CCD Counts  \nC. Pixel Intensity  \nD. Y Position  \n2. What does the z-axis in the third chart represent?\nNote that This is a choice question. Your final answer should be the option that most closely matches the question. If the chart has multiple subplots,\nanswer based on the subplot on the left and at the bottom.\nA. Y Position\nB. Integrated Counts\nC. X Position\nD. CCD Counts\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
         "answer": "A; D",
-        "task": "Parallel_Questions/Structure",
+        "task": "Parallel_Questions/Content",
         "type": "open-ended",
         "context": null
     },

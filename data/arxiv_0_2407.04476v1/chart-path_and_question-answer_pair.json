@@ -7,7 +7,7 @@
         ],
         "question": "The first chart is <image>. The second chart is <image>. Question: How many labeled ticks are there on the z-axis in the central subplot of the first chart?\nNote that your final answer should be the total number of labeled ticks on the vertical axis across multiple subplots. If the chart does not have explicit labeled ticks on the vertical axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "8",
-        "task": "Direct_Questions/Structure",
+        "task": "Direct_Questions/Content",
         "type": "open-ended",
         "context": null
     },
