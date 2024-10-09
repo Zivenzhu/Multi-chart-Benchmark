@@ -8,7 +8,7 @@
         ],
         "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: What is the title of the second chart? \nNote that Your final answer should be the most relevant title of the plot that is explicitly written. If the plot does not have an explicit title or contains only a letter, answer 'Not Applicable'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "Support for more political parties is highest among independents, higher among Democrats than Republicans",
-        "task": "One_question_from_single_image/about_frame",
+        "task": "Direct_Questions/Content",
         "type": "open-ended",
         "context": null
     },
@@ -21,7 +21,7 @@
         ],
         "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question:\n1. What percentage of Democrats say that Republicans are more closed-minded than other Americans in the first chart?\nNote that Your final answer must be grounded to a number that is explicitly written and relevant to the question in the chart, even if it is an approximate value. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\n2. What is the total number of explicitly labeled ticks across all axes in the third chart?\nNote that Your final answer should be the total number of explicitly labeled ticks across all axes, including the case when any axis is shared across multiple subplots. If the chart does not have any explicit labeled ticks across all axes, answer '0'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
         "answer": "83; 5",
-        "task": "multiple_simple_single-image_questions/about_frame_and_content",
+        "task": "Parallel_Questions/Structure",
         "type": "open-ended",
         "context": null
     },
@@ -34,7 +34,7 @@
         ],
         "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: How many of the same year labels are there on the horizontal axes of the third chart and the first chart? \nNote that Your final answer should be the number of the same year labels on the horizontal axis across multiple subplots in the third chart and the first chart. If a chart has multiple identical year labels on the horizontal axes from different subplots, count them as only one distinct label. If these two charts do not have the same year labels on the horizontal axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "1",
-        "task": "One_simple_question_from_multi_images/about_common_elements_in_the_frame",
+        "task": "Comparative_Reasoning/Easy",
         "type": "open-ended",
         "context": null
     },
@@ -47,7 +47,7 @@
         ],
         "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: 1. Extract the title of the subplot where the percentage of Republicans who say Democrats are more ... has increased the most from 2016 to 2022 in the first chart.\nNote that Your final answer must be grounded to some text that is explicitly written and relevant to the question in the chart. If you need to answer multiple terms, separate them with commas. Unless specified in the question (such as answering with a letter), you are required to answer the full names of subplots and/or labels by default.\n2. Which is the second largest share of Americans holding unfavorable views of both parties among all the explicitly written values in the line in the third chart?\nNote that Your final answer must be grounded to a number that is explicitly written and relevant to the question in the chart, even if it is an approximate value. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
         "answer": "Dishonest; 25",
-        "task": "multiple_complicated_single-image_questions/only_combination",
+        "task": "Parallel_Questions/Content",
         "type": "open-ended",
         "context": null
     }

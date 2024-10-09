@@ -7,7 +7,7 @@
         ],
         "question": "The first chart is <image>. The second chart is <image>. Question: How many labeled ticks are there on the z-axis in the central subplot of the first chart?\nNote that your final answer should be the total number of labeled ticks on the vertical axis across multiple subplots. If the chart does not have explicit labeled ticks on the vertical axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "8",
-        "task": "One_question_from_single_image/about_frame",
+        "task": "Direct_Questions/Structure",
         "type": "open-ended",
         "context": null
     },
@@ -19,7 +19,7 @@
         ],
         "question": "The first chart is <image>. The second chart is <image>. Question: How many of the same subplots are there in the second chart and the first chart?\nNote that your final answer should be the number of subplots which both exist in these two charts.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "1",
-        "task": "One_simple_question_from_multi_images/about_common_elements_in_the_content",
+        "task": "Comparative_Reasoning/Easy",
         "type": "open-ended",
         "context": null
     },
@@ -31,7 +31,7 @@
         ],
         "question": "The first chart is <image>. The second chart is <image>. Question: 1. How many average segments make up the rightmost subplot in the second chart?\nNote that your final answer should be a natural number.\n2. How many patches make up the central subplot in the first chart?\nNote that your final answer should be a natural number.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
         "answer": "8; 6",
-        "task": "multiple_complicated_single-image_questions/only_combination",
+        "task": "Parallel_Questions/Content",
         "type": "open-ended",
         "context": null
     },
@@ -43,7 +43,7 @@
         ],
         "question": "The first chart is <image>. The second chart is <image>. Question: 1. Which chart is a demonstration of dividing a 3D chart into some small pieces?\nNote that your answer should be an ordinal numeral, such as First, Second or Third.\n2. Which chart is a demonstration of combining some pieces of a 3D chart together to get an overview?\nNote that your answer should be an ordinal numeral, such as First, Second or Third.\nNow that you have got the answers for the two questions. Your answer format should as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
         "answer": "First; Second",
-        "task": "multiple_complicated_single-image_questions/only_combination",
+        "task": "Parallel_Questions/Content",
         "type": "open-ended",
         "context": null
     }

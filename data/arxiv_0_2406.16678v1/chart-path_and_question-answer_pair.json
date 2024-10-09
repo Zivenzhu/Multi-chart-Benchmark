@@ -8,7 +8,7 @@
         ],
         "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: 1. In which test time (seconds) does the WtP line reaches its maximum value in the first chart titled with CODE-SWITCHING-CORRUPTED-ASR?\nNote that your final answer must be approximated to the nearest horizontal tick value in the chart. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\n2. In which test time (seconds) does the WtP line reaches its maximum value in the third chart titled with UD?\nNote that your final answer must be approximated to the nearest horizontal tick value in the chart. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\nNote that you have got the answer for the above two questions, the final answer is the answer to the second question minus the answer to the first question. You should omit the unit after the numerical value.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "2",
-        "task": "multiple_complicated_single-image_questions/plus_one_step_reasoning_or_calculation",
+        "task": "Comparative_Reasoning/Hard",
         "type": "open-ended",
         "context": null
     },
@@ -21,7 +21,7 @@
         ],
         "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: Which label in the legend of Model Groups demonstrate the most different trends from left to right among the three charts?\nNote that if there are more than one labels demonstrate different trends, you answer should be the label whose trends are the most different among three charts. Your answer should be one label in the legend of Model Groups.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "WtP",
-        "task": "multiple_complicated_single-image_questions/plus_one_step_reasoning_or_calculation",
+        "task": "Comparative_Reasoning/Hard",
         "type": "open-ended",
         "context": null
     },
@@ -34,7 +34,7 @@
         ],
         "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: What is the title of the chart where the SaT line doesn't have any points which are directly over the WtP line?\nNote that your should decide which chart satisfies the constraint and then find the title of it as the answer.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "OPUS100",
-        "task": "multiple_complicated_single-image_questions/plus_one_step_reasoning_or_calculation",
+        "task": "Comparative_Reasoning/Hard",
         "type": "open-ended",
         "context": null
     },
@@ -47,7 +47,7 @@
         ],
         "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: In which chart, (CODE-SWITCHING-CORRUPTED-ASR or UD), the F1 Score gap between the rightmost points of the SaT line and the Sat + SM line is larger? \nNote that your answer should be only one option from (CODE-SWITCHING-CORRUPTED-ASR, UD)\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "CODE-SWITCHING-CORRUPTED-ASR",
-        "task": "multiple_complicated_single-image_questions/plus_one_step_reasoning_or_calculation",
+        "task": "Comparative_Reasoning/Hard",
         "type": "open-ended",
         "context": null
     }

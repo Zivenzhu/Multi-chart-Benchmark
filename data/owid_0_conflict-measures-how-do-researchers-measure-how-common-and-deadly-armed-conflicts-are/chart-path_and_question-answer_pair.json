@@ -8,7 +8,7 @@
         ],
         "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: What does the horizontal axis of the second chart represent?\nNote that This a choice question. Your final answer should be the option that most closely matches the question. If the chart has multiple subplots, answer based on the subplot on the left and at the bottom. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. The number of new armed conflicts per year.\nB. The type of armed conflict over time.\nC. The number of ongoing armed conflicts per year.\nD. The year in which new armed conflicts started.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "D",
-        "task": "One_question_from_single_image/about_frame",
+        "task": "Direct_Questions/Structure",
         "type": "multiple-choice",
         "context": null
     },
@@ -21,7 +21,7 @@
         ],
         "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question:\n1. How many colours are used for the bars in the first chart? \nNote that Your final answer should be the total number of colours used for the bars in the chart across multiple subplots. If the plot is not considered a bar plot, answer '0'.\n2. How many labeled ticks are there on the vertical axis in the third chart? \nNote that Your final answer should be the total number of labeled ticks on the vertical axis across multiple subplots. If the chart does not have explicit labeled ticks on the vertical axis, answer '0'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
         "answer": "4; 10",
-        "task": "multiple_simple_single-image_questions/about_frame_and_content",
+        "task": "Parallel_Questions/Structure",
         "type": "open-ended",
         "context": null
     },
@@ -34,7 +34,7 @@
         ],
         "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: How many identical labels are there in the legends of the first chart and the second chart?\nNote that Your final answer should be the number of identical labels in the legends of the first chart and the second chart across multiple subplots. And your final answer should account for only labels relevant to the plot in the legend, even if the legend is located outside the plot. If any of the plots do not have a legend, or if the legend is not considered relevant to the plot, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "5",
-        "task": "One_simple_question_from_multi_images/about_common_elements_in_the_content",
+        "task": "Comparative_Reasoning/Easy",
         "type": "open-ended",
         "context": null
     },
@@ -47,7 +47,7 @@
         ],
         "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: Firstly extract a label from the legend of the second chart whose number of new armed conflicts is the largest among all the labels in 1997.\nThen for this label, which position does its number of armed conflicts rank among all the labels in 1997 in the first chart?\nNote that your answer should be an ordinal number.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "Third",
-        "task": "multiple_complicated_single-image_questions/multi_step-chain_of_search",
+        "task": "Sequential_Reasoning",
         "type": "open-ended",
         "context": null
     }

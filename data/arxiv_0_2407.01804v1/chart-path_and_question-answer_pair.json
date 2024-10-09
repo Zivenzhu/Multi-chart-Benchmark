@@ -8,7 +8,7 @@
         ],
         "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: What is the spatially highest labeled tick on the vertical axis in the first chart?\nNote that Your final answer should be the tick value on the vertical axis that is explicitly written, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot.If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "1.0",
-        "task": "One_question_from_single_image/about_frame",
+        "task": "Direct_Questions/Structure",
         "type": "open-ended",
         "context": null
     },
@@ -21,7 +21,7 @@
         ],
         "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question:\n1. How many distinct lines are there in the third chart?\nNote that Your final answer should be the total number of distinct lines in the chart across multiple subplots. Ignore grid lines, tick marks, and any vertical or horizontal auxiliary lines. If the plot does not contain any lines or is not considered a line plot, answer '0'.\n2. What is the leftmost labeled tick on the horizontal axis in the second chart?\nNote that Your final answer should be the tick value on the horizontal axis that is explicitly written, including the case when horizontal axis is shared across multiple subplots. When the horizontal axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the horizontal axis, answer 'Not Applicable'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
         "answer": "2; 200",
-        "task": "multiple_simple_single-image_questions/about_frame_and_content",
+        "task": "Parallel_Questions/Structure",
         "type": "open-ended",
         "context": null
     },
@@ -34,7 +34,7 @@
         ],
         "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: How many of the same tick values are there on the horizontal axis in the third chart and the first chart?\nNote that Your final answer should be the number of the same tick values on the horizontal axis across multiple subplots in the third chart and the first chart. If a chart has multiple ticks from different subplots with the same value, count them as only one distinct tick value. If these two charts do not have ticks with the same label on the horizontal axis, answer '0'.\nNote that your answer format should be as follows: Answer: The_answer_you_get",
         "answer": "9",
-        "task": "One_simple_question_from_multi_images/about_common_elements_in_the_frame",
+        "task": "Comparative_Reasoning/Easy",
         "type": "open-ended",
         "context": null
     },
@@ -47,7 +47,7 @@
         ],
         "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: 1. What is the Cumulative Budget axis tick value b1 such that the probability coverage gap of CIFAR-10 and STL-10 decreases on the left side of the line Cumulative Budeget=b1 while the probability coverage gap of CIFAR-10 and STL-10 increases on the right side of the line Cumulative Budeget=b1 in the first chart?\nNote that your answer should only be the value b1 which best meets the constraint.\n2. What is the Cumulative Budget axis tick value b2 such that the probability coverage of CIFAR-10 is higher than that of IMAGENET-50 on the left side of the line Cumulative Budeget=b2 while the probability coverage of CIFAR-10 is lower than that of IMAGENET-50 on the right side of the line Cumulative Budeget=b2 in the third chart?\nNote that your answer should only be the value b2 which best meets the constraint.\nNow that you have got the answers for the two questions. Your answer format should as follows:\nAnswer: b1; b2",
         "answer": "200; 1000",
-        "task": "multiple_complicated_single-image_questions/plus_one_step_reasoning_or_calculation",
+        "task": "Comparative_Reasoning/Hard",
         "type": "open-ended",
         "context": null
     }

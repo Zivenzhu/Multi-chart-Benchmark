@@ -1,4 +1,4 @@
-Answer: Not too accepting, Not at all accepting, Very accepting, Somewhat accepting, 
+Answer: Not too accepting, Not at all accepting, Very accepting, Somewhat accepting 
 
 Answer: 4; 3
 
