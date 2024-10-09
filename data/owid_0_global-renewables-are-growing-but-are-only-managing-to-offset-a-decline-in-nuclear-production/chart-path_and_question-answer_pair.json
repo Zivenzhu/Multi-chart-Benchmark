@@ -19,7 +19,7 @@
         ],
         "question": "The first chart is <image>. The second chart is <image>. Question:\n1. What does the horizontal axis of the second chart represent?\nNote that This a choice question. Your final answer should be the option that most closely matches the question. If the chart has multiple subplots, answer based on the subplot on the left and at the bottom. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. The years from 1985 to 2023.\nB. The types of energy sources.\nC. The percentage share of electricity generation.\nD. The countries listed by their energy production.\n2. What is the general trend of Nuclear data from left to right in the first chart?\nNote that This a choice question. Your final answer should be the option that most closely matches the question.\nA. Increasing\nB. Increasing then decreasing\nC. Decreasing then increasing\nD. Decreasing\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
         "answer": "A; D",
-        "task": "Parallel_Questions/Structure",
+        "task": "Parallel_Questions/Mixed",
         "type": "open-ended",
         "context": null
     },

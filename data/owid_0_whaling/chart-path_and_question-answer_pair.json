@@ -19,7 +19,7 @@
         ],
         "question": "The first chart is <image>. The second chart is <image>. Question:\n1. What is the peak number of whales killed in a single year according to the first chart?\nNote that your final answer must be approximated to the nearest vertical tick value in the chart. You should omit the unit after any number. You are allowed to extract numbers within some text when needed.\n2. What does the horizontal axis of the second chart represent?\nNote that This is a choice question. Your final answer should be the option that most closely matches the question. If the chart has multiple subplots, answer based on the subplot on the left and at the bottom. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. The years from 1890 to 2001.\nB. The decline in global whale populations over time.\nC. The percentage change in whale populations from 1890 to 2001.\nD. The total whale populations in the pre-whaling period versus 2001.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
         "answer": "80,000; D",
-        "task": "Parallel_Questions/Structure",
+        "task": "Parallel_Questions/Mixed",
         "type": "open-ended",
         "context": null
     },

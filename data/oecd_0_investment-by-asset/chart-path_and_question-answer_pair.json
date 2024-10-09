@@ -21,7 +21,7 @@
         ],
         "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question: \n1. What is the spatially highest labeled tick on the vertical axis in the second chart? \nNote that Your final answer should be the tick value on the vertical axis that is explicitly written, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the left and right of the plot, answer based on the axis at the left. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the chart does not have explicit labeled ticks on the vertical axis, answer 'Not Applicable'.\n2. What is the title of the third chart?\nNote that your final answer should be the most relevant title of the plot that is explicitly written. If the plot does not have an explicit title or contains only a letter, answer 'Not Applicable'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
         "answer": "40; Investment by asset",
-        "task": "Parallel_Questions/Structure",
+        "task": "Parallel_Questions/Mixed",
         "type": "open-ended",
         "context": null
     },

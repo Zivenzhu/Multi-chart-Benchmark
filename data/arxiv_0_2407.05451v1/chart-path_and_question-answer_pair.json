@@ -21,7 +21,7 @@
         ],
         "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question:\n1. What is the difference between the maximum and minimum values of the tick labels on the vertical axis in the second chart?\nNote that Your final answer should be the difference between the maximum and minimum values of the tick labels on the vertical axis, including the case when vertical axis is shared across multiple subplots. When the vertical axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the plot does not have an explicit vertical axis tick value, or if the tick values are not numerical, answer 'Not Applicable'.\n2. What is the general trend of  the median value of the 1BB-1F box with the increasing of Instance in the first chart?\nNote that This is a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. Remaining almost constant\nB. Increasing then decreasing\nC. Decreasing then increasing\nD. Decreasing then Increasing, finally decreasing\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
         "answer": "1.50; D",
-        "task": "Parallel_Questions/Structure",
+        "task": "Parallel_Questions/Mixed",
         "type": "open-ended",
         "context": null
     },

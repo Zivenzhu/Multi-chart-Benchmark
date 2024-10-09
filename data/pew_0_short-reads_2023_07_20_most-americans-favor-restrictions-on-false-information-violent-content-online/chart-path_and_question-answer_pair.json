@@ -19,7 +19,7 @@
         ],
         "question": "The first chart is <image>. The second chart is <image>. Question:\n1. What is the percentage of U.S. adults who say tech companies should restrict false information online in the second chart?\nNote that Your final answer must be grounded to some text that is explicitly written and relevant to the question in the chart. If you need to answer multiple terms, separate them with commas. Unless specified in the question (such as answering with a letter), you are required to answer the full names of subplots and/or labels by default.\n2. What does the vertical axis represent in the first chart?\nNote that this a choice question. Your final answer should be the option that most closely matches the question. You should only output the option, such as A, B, C, or D, as the answer without the content in the option.\nA. The total number of U.S. adults surveyed\nB. The total number of false information incidents reported\nC. The number of U.S. government and tech companies involved\nD. The percentage of U.S. adults who support or oppose the restriction of false information online\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
         "answer": "65; D",
-        "task": "Parallel_Questions/Structure",
+        "task": "Parallel_Questions/Mixed",
         "type": "open-ended",
         "context": null
     },

@@ -21,7 +21,7 @@
         ],
         "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question:\n1. What is the layout of the subplots in the third chart? (Answers should m by n)?\nNote that Your final answer should follow 'n by m' format, where n is the number of rows and m is the number of columns. If the plot does not contain subplots, answer '1 by 1'.\n2. How many labeled ticks are there on the vertical axis in the second chart?\nNote that Your final answer should be the total number of labeled ticks on the vertical axis across multiple subplots. If the chart does not have explicit labeled ticks on the vertical axis, answer '0'.\n2. How many colours are used for the bars in the first chart?\nNote that Your final answer should be the total number of colours used for the bars in the chart across multiple subplots. If the plot is not considered a bar plot, answer '0'.\nNow that you have got the answers for the three questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question; The_answer_for_the_third_question",
         "answer": "1 by 1; 7; 3",
-        "task": "Parallel_Questions/Structure",
+        "task": "Parallel_Questions/Mixed",
         "type": "open-ended",
         "context": null
     },

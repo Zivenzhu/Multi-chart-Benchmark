@@ -19,7 +19,7 @@
         ],
         "question": "The first chart is <image>. The second chart is <image>. Question: \n1. How many labeled ticks are there on the horizontal axis in the second chart? \nNote that Your final answer should be the total number of labeled ticks on the horizontal axis across multiple subplots. If the chart does not have explicit labeled ticks on the horizontal axis, answer '0'. \n2. What is the title of the first chart? \nNote that Your final answer should be the most relevant title of the plot that is explicitly written. If the plot does not have an explicit title or contains only a letter, answer 'Not Applicable'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
         "answer": "6; Annual CO\u00e2\u201a\u201a emissions, 2022",
-        "task": "Parallel_Questions/Structure",
+        "task": "Parallel_Questions/Mixed",
         "type": "open-ended",
         "context": null
     },

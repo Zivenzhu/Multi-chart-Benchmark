@@ -21,7 +21,7 @@
         ],
         "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question:\n1. How many labeled ticks are there on the vertical axis in the first chart?\nNote that Your final answer should be the total number of labeled ticks on the vertical axis across multiple subplots. If the chart does not have explicit labeled ticks on the vertical axis, answer '0'.\n2. Which color is the line representing z=0.7 in the third chart?\nNote that your answer should be only one option from (Red, Yellow, Purple, Blue, Green, Black).\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
         "answer": "4; Green",
-        "task": "Parallel_Questions/Structure",
+        "task": "Parallel_Questions/Mixed",
         "type": "open-ended",
         "context": null
     },

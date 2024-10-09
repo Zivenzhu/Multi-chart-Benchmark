@@ -21,7 +21,7 @@
         ],
         "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question:\n1. How many colours are used for the bars in the first chart?\nNote that your final answer should be the total number of colours used for the bars in the chart across multiple subplots. If the plot is not considered a bar plot, answer '0'.\n2. What are the names of the labels in the legend of the second chart? (from top to bottom, then left to right)\nNote that you should write down the labels from top to bottom, then from left to right and separate the labels with commas. Your final answer should account for only labels relevant to the plot in the legend, even if the legend is located outside the plot. If the plot does not have a legend or no legend is considered relevant to this plot, answer 'Not Applicable'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
         "answer": "3; Rep/lean Rep, Dem/lean Dem",
-        "task": "Parallel_Questions/Structure",
+        "task": "Parallel_Questions/Mixed",
         "type": "open-ended",
         "context": null
     },

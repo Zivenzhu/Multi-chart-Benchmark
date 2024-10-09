@@ -21,7 +21,7 @@
         ],
         "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question:\n1. How many distinct labeled ticks are there on the horizontal axis in the third chart?\nNote that your final answer should be the total number of labeled ticks on the horizontal axis across multiple subplots. If a chart has multiple identical labeled ticks on the horizontal axis from different subplots, count them as only one distinct labeled tick. If the chart does not have explicit labeled ticks on the horizontal axis, answer '0'.\n2. How many different colours are used for the segments of the pies in the first chart?\nNote that your final answer should be the total number of colours used for the segments of the pies in the chart across multiple subplots. If the chart is not considered a pie chart, answer '0'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
         "answer": "3; 5",
-        "task": "Parallel_Questions/Structure",
+        "task": "Parallel_Questions/Mixed",
         "type": "open-ended",
         "context": null
     },

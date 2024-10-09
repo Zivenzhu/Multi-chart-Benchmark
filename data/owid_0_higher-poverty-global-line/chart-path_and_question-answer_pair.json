@@ -8,7 +8,7 @@
         ],
         "question": "The first chart is <image>. The second chart is <image>. The third chart is <image>. Question:\n1. What is the difference between the maximum and minimum values of the tick labels on the horizontal axis in the third chart? \nNote that Your final answer should be the difference between the maximum and minimum values of the tick labels on the horizontal axis, including the case when horizontal axis is shared across multiple subplots. When the horizontal axis is present on both the top and bottom of the plot, answer based on the axis at the bottom. Ignore units or scales that are written separately from the tick, such as units and scales from the axis label or the corner of the plot. If the plot does not have an explicit horizontal axis tick value, or if the tick values are not numerical, answer 'Not Applicable'.\n2. How many distinct lines are there in the third chart? \nNote that Your final answer should be the total number of distinct lines in the chart across multiple subplots. Ignore grid lines, tick marks, and any vertical or horizontal auxiliary lines. If the plot does not contain any lines or is not considered a line plot, answer '0'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
         "answer": "202; 6",
-        "task": "Parallel_Questions/Structure",
+        "task": "Parallel_Questions/Mixed",
         "type": "open-ended",
         "context": null
     },

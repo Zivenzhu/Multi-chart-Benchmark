@@ -19,7 +19,7 @@
         ],
         "question": "The first chart is <image>. The second chart is <image>. Question:\n1. What was the value of the Living Planet Index for 'Asia and Pacific' in 2000 in the second chart?\nNote that your final answer must be approximated to the nearest vertical tick value in the chart. You are allowed to extract numbers within some text when needed.\n2. What is the total number of explicitly labeled ticks across all axes in the first chart? \nNote that Your final answer should be the total number of explicitly labeled ticks across all axes, including the case when any axis is shared across multiple subplots. If the chart does not have any explicit labeled ticks across all axes, answer '0'.\nNow that you have got the answers for the two questions. Your answer format should be as follows:\nAnswer: The_answer_for_the_first_question; The_answer_for_the_second_question",
         "answer": "60%; 12",
-        "task": "Parallel_Questions/Structure",
+        "task": "Parallel_Questions/Mixed",
         "type": "open-ended",
         "context": null
     },
